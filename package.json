@@ -1,0 +1,21 @@
+{
+    "name": "logos",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": ">=0.9.0-pre.1"
+    },
+    "publisher": "b3ll, Cykey",
+    "contributes": {
+        "languages": [{
+            "id": "logos",
+            "aliases": ["Logos", "logos"],
+            "extensions": [".xm",".x",".xi",".xmi"],
+            "configuration": "./objective-c.configuration.json"
+        }],
+        "grammars": [{
+            "language": "logos",
+            "scopeName": "source.logos",
+            "path": "./syntaxes/logos.tmLanguage"
+        }]
+    }
+}
