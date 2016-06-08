@@ -1,8 +1,8 @@
-Sublime-Logos
+VSCode-Logos
 =============
 
-Logos syntax highlighter for Sublime Text.
+Logos syntax highlighter for Visual Studio Code.
 
-Stick the .tmLanguage file in `~/Library/Application Support/Sublime Text 2/Packages/User` and reload Sublime (close and reopen). You should now have syntax highlighting for logos.
+Run `git clone https://github.com/evilgoldfish/VSCode-Logos $HOME/.vscode/extensions/logos` and reload VSCode (close and reopen). You should now have syntax highlighting for logos.
 
 * It could be better, a lot better. I do not know regexes enough to fix it, but if anyone feels like contributing, it would be appreciated.
